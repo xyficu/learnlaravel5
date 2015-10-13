@@ -42,7 +42,7 @@ class CommentsController extends Controller {
         if (Comment::create(Input::all())) {
             return Redirect::back();
         } else {
-            return Redirect::back()->withInput()->withErrors('ÆÀÂÛ·¢±íÊ§°Ü£¡');
+            return Redirect::back()->withInput()->withErrors('???????????');
         }
 	}
 

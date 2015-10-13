@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php" charset="GBK" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/app.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/AdminHome.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/_layouts/default.blade.php" charset="UTF-8" />
@@ -11,5 +12,6 @@
     <file url="file://$PROJECT_DIR$/resources/views/admin/pages/edit.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/app.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/pages/show.blade.php" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
