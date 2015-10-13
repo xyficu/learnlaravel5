@@ -5,11 +5,11 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel panel-default">
-                    <div class="panel-heading">后台首页</div>
+                    <div class="panel-heading">鍚庡彴棣栭〉</div>
 
                     <div class="panel-body">
 
-                        <a href="{{ URL('admin/pages/create') }}" class="btn btn-lg btn-primary">新增</a>
+                        <a href="{{ URL('admin/pages/create') }}" class="btn btn-lg btn-primary">鏂板</a>
 
                         @foreach ($pages as $page)
                             <hr>
@@ -21,12 +21,12 @@
                                     </p>
                                 </div>
                             </div>
-                            <a href="{{ URL('admin/pages/'.$page->id.'/edit') }}" class="btn btn-success">编辑</a>
+                            <a href="{{ URL('admin/pages/'.$page->id.'/edit') }}" class="btn btn-success">缂栬緫</a>
 
                             <form action="{{ URL('admin/pages/'.$page->id) }}" method="POST" style="display: inline;">
                                 <input name="_method" type="hidden" value="DELETE">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <button type="submit" class="btn btn-danger">删除</button>
+                                <button type="submit" class="btn btn-danger">鍒犻櫎</button>
                             </form>
                         @endforeach
 
