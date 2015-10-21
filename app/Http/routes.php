@@ -13,7 +13,10 @@
 
 //Route::get('/', 'WelcomeController@index');
 
-Route::get('/', 'HomeController@index');
+Route::get('/{name}', 'HomeController@index')
+->where(['name' => '[0-9]']);
+
+Route::get('/', 'ArticleController@index');
 
 //Route::controllers([
 //	'auth' => 'Auth\AuthController',
